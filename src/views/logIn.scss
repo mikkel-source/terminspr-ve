@@ -1,0 +1,63 @@
+@import "../component/globall";
+.logIncontainer {
+    height: 100vh;
+    border: 2px solid black;
+    padding-top: 3em;
+    display: flex;
+    flex-direction: column;
+    &__headline {
+        text-transform: capitalize;
+    }
+}
+.logIncontainer__component {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    gap: 1em;
+    &Dot {
+        border: 2px solid $colorBlack;
+        display: block;
+        width: 2em;
+        background-color: $colorBlack;
+    }
+
+}
+.logIn {
+    // height: 2em;
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    &__input {
+        width: 80%;
+        padding-left: 1em;
+        height: 3em;
+        border-radius: 20px;
+        position: relative;
+        &::placeholder {
+            text-transform: capitalize;
+
+        }
+    }
+    &__text {
+        text-transform: capitalize;
+        font-size: 24px;
+        margin-right: 3em;
+    }
+}
+.login__submitForm {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2em;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+
+
+ 

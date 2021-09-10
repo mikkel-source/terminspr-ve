@@ -1,0 +1,56 @@
+@import "../component/globall";
+.fitnessDescription {
+    height: 50vh;
+    position: relative;
+    &__display {
+        margin-left: 1em;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        // border: 2px solid pink;
+        top: 0;
+        height: 80%;
+        // width: 100%;
+        display: flex;
+        padding-inline: 1em;
+        margin-top: 2em;
+        justify-content: space-between;
+    }
+    &__className {
+        position: absolute;
+        left: 80%;
+        top: 10%;
+    }
+    &__title {
+        color: $colorYellow;
+        font-size: 36px;
+        font-weight: 400px;
+        font-family: $poppins;
+
+    }
+}
+.fitnessDescription__time {
+    font-weight: bold;
+    font-family: $poppins;
+    font-size: 14px;
+
+}
+.fitnessDescription__text {
+    font-weight: 500;
+    font-family: $poppins;
+    font-size: 14px;
+}
+.fitnessDescriptionTrainer {
+    font-family: $poppins;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+

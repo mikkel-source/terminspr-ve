@@ -1,0 +1,11 @@
+@import "./globall";
+
+.contentContainer {
+    height: 100vh;
+}
+.contentContainer:nth-of-type(2) {
+    background-color: red;
+}
+
+
+

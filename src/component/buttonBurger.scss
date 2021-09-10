@@ -1,0 +1,22 @@
+@import "./globall";
+.buttonBurger {
+    height: 2em;
+    background: none;
+    width: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    &__dot {
+        border: 2px solid $colorDarkGrey ;
+        width: 100%;
+        &--half {
+            width: 50%;
+            border: 2px solid $colorDarkGrey;
+            margin-left: 50%;
+        }
+
+    }
+    
+
+}

@@ -1,0 +1,52 @@
+@import "../component/globall";
+.popularClassescontainer {
+    padding-top: 2em;
+    justify-content: space-between;
+    padding-right: 2em;
+    display: flex;
+    padding-left: 1.5em;
+    &__galleri {
+        height: 40vh;
+        max-width: 100%;
+        // align-items: center;
+        margin-inline: 1em;
+        padding-inline: 1em;
+        &Img {
+            background-repeat: none;
+            height: 100%;
+            object-fit: cover;
+            background-size: contain;
+            overflow: hidden;
+        }
+    }
+
+
+}
+.popularClassesforYou {
+    height: 50vh;
+    margin-inline: 1em;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+
+&__text {
+        text-transform: capitalize;
+        overflow: hidden;
+        font-family: $poppins;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    &__heading {
+        height: 10vh;
+        overflow: hidden;
+    }
+    &__map {
+   height: 40vh;
+gap: 1em;
+// flex-wrap: nowrap;
+width: 150%;
+display: flex;
+    }
+
+}

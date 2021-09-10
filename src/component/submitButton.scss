@@ -1,0 +1,27 @@
+@import "./globall";
+.submitButton {
+    width: 80%;
+    height: 3.5em;
+    border-radius: 20px;
+    background-color: $colorYellow;
+    border: none;
+    display: flex;
+justify-content: center;
+align-items: center;
+    &__input {
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+&Text {
+    font-family: $poppins;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+    }
+   
+
+
+
+}

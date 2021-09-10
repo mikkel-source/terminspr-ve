@@ -1,0 +1,45 @@
+@import "../component/globall";
+.scheduleTrainingcontainer {
+    background-color: $colorWhite;
+
+
+    &__link {
+        text-decoration: none;
+        font-size: 20px;
+        text-transform: capitalize;
+        color: $colorBlack;
+    }
+
+}
+.scheduleTrainingcontainer__returnOption {
+    display: flex;
+    justify-content: flex-end;
+    height: 4em;
+    align-items: center;
+    padding-right: 1em;
+
+
+
+}
+.scheduleTrainingcontainer__options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 2em;
+    
+}
+.mySchedule__containerHeadertext {
+    text-transform: capitalize;
+
+
+}
+
+
+
+
+
+
+        
+        

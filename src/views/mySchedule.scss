@@ -1,0 +1,27 @@
+
+    
+.mySchedule__container {
+    height: 100vh;
+    margin-inline: 1em;
+    display: flex;
+    flex-direction: column;
+&Header {
+    display: flex;
+    height: 5vh;
+    background: red;
+    width: 100%;
+    align-items: center;
+    gap: .5em;
+    &text {
+        text-transform: capitalize;
+
+    }
+}
+}
+
+.mySchedule__classes {
+    background: red;
+    height: 45vh;
+    padding-top: 1em;
+    
+}

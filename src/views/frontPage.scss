@@ -1,0 +1,70 @@
+@import "../component/globall";
+.brandContainer {
+    height: 50vh;
+    background-size: cover;
+ display: grid;
+    object-fit: cover;
+    object-position: 0 0%;
+    grid-template-columns: 30% 60% 10%;
+    grid-template-rows: 30% 60% 10%;
+    &__text {
+        grid-row: 2/3;
+        grid-column: 1/3;
+        text-transform: capitalize;
+        align-self: flex-end;
+        color: $colorYellow;
+        font-size: 56px;
+        margin-left: 1em;
+        font-family: $poppins;
+        font-weight: 600;
+        word-spacing: 10%;
+        &min {
+            font-size: 18px;
+            grid-row: 3/4;
+            grid-column: 1/3;
+            color: $colorWhite;
+            margin-left: 3em;
+            text-transform: capitalize;
+        }
+
+
+    }
+
+
+}
+.startTrainingcontainer {
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__btn {
+        margin-top: 22.5em;
+        background-color: $colorYellow;
+        width: 9.5rem;
+        height: 2.5rem;
+        border-radius: 1.25rem;
+        &Text {
+            color: $colorBlack;
+            font-size: 12px;
+            font-family: $poppins;
+            border: none;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+
+
+
+        
+    }
+}
+.brandContainer__dot {
+    border: 2px solid $colorWhite;
+    height: 0;
+    background-color: $colorWhite;
+    grid-row: 3/4;
+    grid-column: 1/2;
+    margin-top: 0.5em;
+}
+
+
